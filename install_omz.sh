@@ -1,8 +1,4 @@
-# Install zsh
-sudo apt-get install zsh
-sudo chsh -s $(which zsh)
-exec zsh
-
+#!/bin/bash
 # Assuming install of zsh, install other prerequisites.
 sudo apt-get update && apt-get install -y curl git
 
